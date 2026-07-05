@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page - Maiara do Amaral Martins</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(200deg, #6a1b9a, #9c27b0);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 4px solid white;
+    }
+
+    nav {
+      background-color: #333;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d8b4f8;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    section, aside {
+      background-color: white;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    #sobre p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    }
+
+    h2 {
+      color: #6a1b9a;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    article {
+      background-color: #f9f0ff;
+      padding: 15px;
+      margin-top: 15px;
+      border-left: 5px solid #9c27b0;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 24px;
+      }
+
+      main {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Maiara do Amaral Martins</h1>
+    <br>
+    <h3>Cada desafio é uma oportunidade para aprender, evoluir e crescer.</h3>
+    <img src="FOTO1.png" alt="Minha Foto">
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#extras">Extras</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre mim</h2>
+      <p>
+        Olá! Meu nome é Maiara.
+      </p>
+      <p>
+        Tenho 17 anos de experiência na área de faturamento hospitalar e, há 6 anos, atuo como Supervisora de Faturamento Hospitalar.
+        Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, buscando uma transição de carreira para a área de Tecnologia. Neste momento, tenho direcionado meus estudos ao desenvolvimento web, com foco em Front-End, construindo uma base sólida em HTML, CSS e JavaScript por meio de projetos práticos e aprendizado contínuo.
+      </p>
+      <p>
+        Acredito que a persistência e a dedicação são essenciais para a evolução profissional. Meu objetivo é unir a experiência adquirida ao longo da minha trajetória aos conhecimentos técnicos que estou desenvolvendo, criando soluções funcionais, organizadas e que proporcionem uma boa experiência ao usuário.
+      </p>
+      
+    </section>
+
+    <section id="habilidades">
+      <h2>Hard Skills</h2>
+      <ul>
+        <li>HTML semântico</li>
+        <li>CSS básico e responsivo</li>
+        <li>Noções de design visual</li>
+      </ul>
+      <br>
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Organização</li>
+        <li>Comunicação</li>
+        <li>Trabalho em Equipe</li>
+        <li>Resolução de problemas</li>
+        <li>Liderança</li>
+        <li>Adaptabilidade</li>
+      </ul>
+
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+
+      <article>
+        <h3>Página de Portfólio</h3>
+        <p>
+          Desenvolvimento de uma página pessoal para apresentar informações profissionais,
+          habilidades e formas de contato.
+        </p>
+      </article>
+
+      <article>
+        <h3>Sistema de Gerenciamento de Livros</h3>
+        <p>
+          Desenvolvimento de um sistema para uma pequena biblioteca cadastrar, pesquisar e gerenciar seu acervo.
+        </p>
+      </article>
+    </section>
+
+    <aside id="extras">
+      <h2>Informações extras</h2>
+      <p><strong>Hobbies:</strong> Leitura, Muay Thai, Escrita Criativa e Momentos em Família.</p>
+      <p><strong>Links úteis:</strong></p>
+      <ul>
+        <li><a href="https://github.com/MaiaraAmaral" target="_blank">GitHub</a></li>
+        <li><a href="http://www.linkedin.com/in/maiara-martins-63b26057/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/mahamaral17/" target="_blank" >Instagram</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer id="contato">
+    <p>E-mail: maiara.a.amaral2@gmail.com</p>
+    <p>© 2026 Maiara do Amaral Martins. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
